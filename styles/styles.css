@@ -51,6 +51,7 @@ footer {
 
 .block{
     background-color: black;
+    border-radius: 5px;
 }
 
 .block:hover{
@@ -109,14 +110,14 @@ footer {
     background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/burke/images/Burke-Paul-Reiser.jpg);
 }
 
-.farro{
+.ferro{
     background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/farro/images/Ferro_during_drop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.farro:hover{
+.ferro:hover{
     background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/farro/images/Ferro_during_drop.jpg);
 }
 
