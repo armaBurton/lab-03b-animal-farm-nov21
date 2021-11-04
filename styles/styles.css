@@ -1,22 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {        
     font-family: 'Titillium Web', sans-serif;
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(46, 46, 46, 0.8)), url(../assets/background/ox19ob44bo351.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 main {
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: calc();
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: rgba(1, 1, 43, 0.3);
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 5px solid rgba(0, 255, 64, 0.4);
 }
 
 header img {
@@ -27,9 +40,164 @@ header img {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
+    color: rgba(0, 255, 64, 0.7);
 }
 
 footer {
-    background-color: #FAF0EA;
+    border-top: 5px solid rgba(0, 255, 64, 0.4);
+    background-color: rgba(1, 1, 43, 0.651);
     padding: 10px;
+}
+
+.block{
+    background-color: black;
+}
+
+.block:hover{
+    box-shadow: 0 0 16px rgba(0, 255, 64, 0.4);
+}
+
+#soundboard{
+    width: 1000px;
+    height: 650px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.aliens{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/aliens/images/aliens-07.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aliens:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/aliens/images/aliens-07.jpg);
+}
+
+.apone{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/apone/images/370011_0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.apone:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/apone/images/370011_0.jpg);
+}
+
+.bishop{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/bishop/images/Bishop-Aliens-Lance-Heriksen-Synthetic-a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bishop:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/bishop/images/Bishop-Aliens-Lance-Heriksen-Synthetic-a.jpg);
+}
+
+.burke{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/burke/images/Burke-Paul-Reiser.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.burke:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/burke/images/Burke-Paul-Reiser.jpg);
+}
+
+.farro{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/farro/images/Ferro_during_drop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.farro:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/farro/images/Ferro_during_drop.jpg);
+}
+
+.frost{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/frost/images/Frost.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.frost:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/frost/images/Frost.png);
+}
+
+.hicks{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/hicks/images/corporal-hicks.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hicks:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/hicks/images/corporal-hicks.jpg);
+
+}
+
+.hudson{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/hudson/images/hudson.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hudson:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/hudson/images/hudson.jpg);
+}
+
+.techno{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/misc/images/Sulaco_approach.JPG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.techno:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/misc/images/Sulaco_approach.JPG.jpg);
+}
+
+.newt{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/newt/images/aliensnewt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newt:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/newt/images/aliensnewt.jpg);
+}
+
+.ripley{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/ripley/images/Aliens-Ripley-in-Power-Loader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ripley:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/ripley/images/Aliens-Ripley-in-Power-Loader.jpg);
+}
+
+.vasquez{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/vasquez/images/EP65OdUXkAAxzrd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.vasquez:hover{
+    background-image: linear-gradient(0deg,  rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/vasquez/images/EP65OdUXkAAxzrd.jpg);
+}
+
+.pointer{
+    cursor: pointer;                          
 }
