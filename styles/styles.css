@@ -47,6 +47,7 @@ footer {
     border-top: 5px solid rgba(0, 255, 64, 0.4);
     background-color: rgba(1, 1, 43, 0.651);
     padding: 10px;
+    color: rgba(0, 255, 64, 0.7)
 }
 
 .block{
@@ -60,7 +61,7 @@ footer {
 
 #soundboard{
     width: 1000px;
-    height: 650px;
+    height: 600px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
